@@ -1,0 +1,143 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/absorption"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/bad_omen"
+              },
+			  {
+                "condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/blindness"
+              },
+			  {
+                "condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/conduit_power"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/darkness"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/dolphins_grace"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/fire_resistance"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/glowing"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/haste"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/health_boost"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/hero_of_the_village"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/hunger"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/invisibility"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/jump_boost"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/levitation"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/luck"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/mining_fatigue"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/nausea"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/night_vision"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/poison"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/regeneration"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/resistance"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/saturation"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/slow_falling"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/slowness"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/speed"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/strength"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/unluck"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/water_breathing"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/weakness"
+              },
+			  {
+				"condition": "minecraft:reference",
+                "name": "dreadfullib:effect_score_mismatch/wither"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "dreadfullib:effect_tracker/has_not"
+  }
+}

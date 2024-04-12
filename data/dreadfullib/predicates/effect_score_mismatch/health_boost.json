@@ -1,0 +1,26 @@
+[
+  {
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:health_boost": {}
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dreadfullib.health_boost": 1
+        }
+      }
+    ]
+  }
+]

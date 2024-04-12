@@ -1,0 +1,26 @@
+[
+  {
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:slow_falling": {}
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dreadfullib.slow_falling": 1
+        }
+      }
+    ]
+  }
+]

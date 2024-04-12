@@ -1,0 +1,26 @@
+[
+  {
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:bad_omen": {}
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "dreadfullib.bad_omen": 1
+        }
+      }
+    ]
+  }
+]
