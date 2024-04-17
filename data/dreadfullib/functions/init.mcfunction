@@ -3,8 +3,7 @@
 tellraw @a "DreadfulLib v0.1 Initialized!"
 
 # Init singer
-scoreboard objectives add dreadfullib.sing trigger
-scoreboard players enable @a dreadfullib.sing
+scoreboard objectives add dreadfullib.sing dummy
 
 # Init listeners
 

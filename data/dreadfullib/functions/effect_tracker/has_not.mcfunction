@@ -3,7 +3,6 @@ advancement revoke @s only effect_has_not
 
 # Trigger dreadfullib.sing
 scoreboard players set @s dreadfullib.sing 1
-scoreboard players enable @a dreadfullib.sing
 
 # Set the scores
 advancement revoke @s only effect_has_not
